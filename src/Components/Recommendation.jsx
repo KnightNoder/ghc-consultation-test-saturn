@@ -141,7 +141,7 @@ const CallBack = ({
               const SendWhatsappMessage = async () => {
                 const config = {
                   method: "post",
-                  url: `http://${process.env.REACT_APP_SEND_MAIL_API_BASE_URL}/api/device/consultation`,
+                  url: `https://${process.env.REACT_APP_SEND_MAIL_API_BASE_URL}/api/device/consultation`,
                   headers: {
                     "Content-Type": "application/json",
                   },
